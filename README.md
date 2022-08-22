@@ -26,5 +26,9 @@ python eval.py
 ```
 
 ## Acknowldegement
-This software is based on the software of IDRad
+This software is based on top of following conributions:
+[IDRad](https://www.imec-int.com/en/IDRad)
+We thank the authors for open-sourcing these great projects and papers!
 
+## Citation
+If you find this code useful for your research, please cite our paper:
