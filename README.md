@@ -1,7 +1,7 @@
 # Indoor Person Identification with Radar Data.
-Pytorch code for person identification with radar data for five different targets related to paper: <i>Indoor Person Identification Using a Low-Power FMCW Radar</i>.
+Pytorch code for the 2022 Sensor Journal paper DSDA: Dual-scale Doppler Attention for Human Identification.
 
-Paper can be found at: https://ieeexplore.ieee.org/document/8333730
+Paper can be found at:
 
 
 
@@ -13,8 +13,12 @@ Run command <i>python scripts/process_all.py --input \<root path\></i>
 
 #### Train model
 
-Run command <i>python estimate.py --targets target1 target2 target3 target4 target5 --name personid </i>
+Run command <i>python train.py
 
 #### Test model
 
-Run command <i>python estimate.py --params params/personid_bvalid.pt --test </i>
+Run command <i>python eval.py
+
+#### Acknowldegement
+This software is based on the software of IDRad
+
