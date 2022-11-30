@@ -5,6 +5,7 @@ Author: Sunjae Yoon, Dahyun Kim, Ji Woo Hong, Junyeong Kim, Chang D. Yoo
 
 Paper can be found at: https://www.mdpi.com/1424-8220/22/17/6363
 
+This system aims to identify human in the radar signal using deep learning model.
 
 
 ## Data Set
