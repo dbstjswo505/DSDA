@@ -1,7 +1,7 @@
 # Dual-scale Doppler Attention for Human Identification.
 Pytorch code for the 2022 Sensor Journal paper DSDA: Dual-scale Doppler Attention for Human Identification.
 
-Paper can be found at:
+Paper can be found at: https://www.mdpi.com/1424-8220/22/17/6363
 
 
 
