@@ -14,7 +14,7 @@ import torch.optim as optim
 import torch.nn as nn
 import numpy as np
 
-
+# The dataset can be downloaded from the link in the github
 parser = argparse.ArgumentParser(description='Indoor Person Identification')
 parser.add_argument('--params', default='', type=str)
 parser.add_argument('--name', default='mymodel', type=str)
