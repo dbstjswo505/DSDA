@@ -13,6 +13,7 @@ class DSDA(nn.Module):
         doppler_pooling = np.zeros((4,), dtype=np.int32)
         time_pooling = np.zeros((4,), dtype=np.int32)
         # dynmiac poolling considers the features informations in the receptive fields
+        # The feature is obtained from doppler signal
         if dynamic_pooling:
             doppler_pooling[:] = int((float(input_dim[2]) / 5) ** .25)
             res = ((float(input_dim[2]) / 5) ** .25) - doppler_pooling[0]
